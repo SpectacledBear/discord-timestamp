@@ -2,7 +2,7 @@
 
 Condenses the script in the main.py file into one line.
 
-Usage: python ./one_liner.py "1969-01-01T00:00:00"
+Usage: python ./one_liner.py "1970-01-01T00:00:00"
 """
 
 import sys

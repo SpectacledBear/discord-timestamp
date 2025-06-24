@@ -2,10 +2,10 @@
 
 To convert an ISO datetime string to a Discord timestamp.
 
-Usage: python ./main "1969-01-01T00:00:00"
+Usage: python ./main "1970-01-01T00:00:00"
 
 You can specify a timezone by adding the timezone offset. For example,
-"1969-01-01T00:00:00-00:00"
+"1970-01-01T00:00:00-00:00"
 """
 
 import sys
