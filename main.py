@@ -87,9 +87,10 @@ def convert_datetime_to_discord_datetime(base_datetime):
 if __name__ == "__main__":
     datetime_arg = get_datetime_arg()
 
-    iso_datetime = get_iso_datetime(datetime_arg)
+    if datetime_arg is not None:
+        iso_datetime = get_iso_datetime(datetime_arg)
 
-    if iso_datetime is not None:
-        convert_datetime_to_discord_datetime(iso_datetime)
-    else:
-        print("Error: No ISO date found, so not proceeding.")
+        if iso_datetime is not None:
+            convert_datetime_to_discord_datetime(iso_datetime)
+        else:
+            print("Error: No ISO date found, so not proceeding.")
